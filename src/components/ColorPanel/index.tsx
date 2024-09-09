@@ -1,4 +1,4 @@
-import {Panel} from "./styles";
+import styles from "./styles.module.css";
 
 type Props = {
     red: number;
@@ -7,14 +7,14 @@ type Props = {
     alpha: number;
   }
 
-  const ColorPanel = ({red, green, blue, alpha}: Props)  => {
+  export const ColorPanel = ({red, green, blue, alpha}: Props)  => {
     const backgroundColor = `rgba(${red}, ${green}, ${blue}, ${alpha})`;
 
     return (
-        <Panel style={{ backgroundColor }}  data-cy="colorPanel">
+        <div className={styles.colorPanel}  data-cy="colorPanel" style={{backgroundColor: backgroundColor}}>
             <p data-cy="panelText">{`<ColorPanel red={${red}} green={${green}} blue={${blue}} alpha={${alpha}} />`}</p>
-        </Panel> 
+        </div> 
     )
   }
 
-export default ColorPanel;
+export default ColorPanel; 

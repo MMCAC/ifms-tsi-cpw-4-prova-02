@@ -44,3 +44,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Realize o processo de CI/CD conforme visto em aula com o app que você implementou na Avaliação 01. Use o passo a passo existente aqui no Moodle.
+### Nesta avaliação, você deve entregar:
+
+- O link do repositório no Github contendo o código do app e o fluxo de CI/CD com Github Actions;
+- O link do app de produção no Vercel.
+
+Envie o que foi solicitado aqui exclusivamente pelo Moodle até as 23:59 do dia 13/09/2024. Esta avaliação deve ser realizada individualmente e vale até 10 pontos.
